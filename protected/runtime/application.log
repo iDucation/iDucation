@@ -13450,3 +13450,668 @@ Stack trace:
 REQUEST_URI=/iducation3/images/Icon-user.png
 HTTP_REFERER=http://localhost:8088/iducation3/admin/userdetail/add.3gp
 ---
+2014/11/22 02:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/pofile".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/pofile')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/pofile
+---
+2014/11/22 02:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/js/-1.10.2.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/js/-1.10.2.js
+HTTP_REFERER=http://localhost/iDucation/forum/Dashboard.3gp
+---
+2014/11/22 02:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forum/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('forum/img/avata...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/forum/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/forum/Dashboard.3gp
+---
+2014/11/22 02:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forum/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('forum/img/avata...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/forum/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/forum/Dashboard.3gp
+---
+2014/11/22 02:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/fontawesome-webfont.woff?v=4.0.3
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/22 02:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/22 02:20:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/fontawesome-webfont.ttf?v=4.0.3
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/22 02:20:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/bootstrap.min.css
+---
+2014/11/22 02:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:24:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.woff".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/fontawesome-webfont.woff?v=4.0.3
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/22 02:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/fonts/fontawesome-webfont.ttf".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/fonts/fontawesome-webfont.ttf?v=4.0.3
+HTTP_REFERER=http://localhost/iDucation/themes/iducational/forum/css/font-awesome.min.css
+---
+2014/11/22 02:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/bootstrap.min.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/bootstrap.min.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/app.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/app.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/iducational/forum/AdminLTE/AdminLTE/demo.js".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/iducatio...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/themes/iducational/forum/AdminLTE/AdminLTE/demo.js
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---
+2014/11/22 02:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sosmed/img/avatar3.png".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('sosmed/img/avat...')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iDucation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iDucation/sosmed/img/avatar3.png
+HTTP_REFERER=http://localhost/iDucation/sosmed/beranda.3gp
+---

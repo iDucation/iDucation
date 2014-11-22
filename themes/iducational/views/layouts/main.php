@@ -8,8 +8,14 @@
     <!-- Loading Bootstrap -->
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Admin Lte -->
-    <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+  
+          <!-- font Awesome -->
+        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Ionicons -->
+        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+   <!-- Theme style -->
+        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+
 
 
     <!-- Loading Flat UI -->
@@ -29,6 +35,8 @@
       <script src="dist/js/vendor/html5shiv.js"></script>
       <script src="dist/js/vendor/respond.min.js"></script>
     <![endif]-->
+
+
   </head>
  <body style="background-color:#BDC3C7;">
  <div class="row" >
@@ -136,6 +144,25 @@
   </div> <!-- /row -->
   <div class="container" >
      <?php echo $content; ?>
+  </div>
+  <!-- script references -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/js/bootstrap.min.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/js/scripts.js"></script>
 
+
+
+        <!-- jQuery 2.0.2 -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/AdminLTE/bootstrap.min.js" type="text/javascript"></script>
+        <!-- AdminLTE App -->
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/AdminLTE/AdminLTE/app.js" type="text/javascript"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/AdminLTE/AdminLTE/demo.js" type="text/javascript"></script>
+
+<!-- end script references -->
   </body>
+
 </html>
