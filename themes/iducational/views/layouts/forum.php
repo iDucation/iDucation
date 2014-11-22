@@ -24,16 +24,6 @@
         <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Ionicons -->
         <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-        <!-- Morris chart -->
-        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/morris/morris.css" rel="stylesheet" type="text/css" />
-        <!-- jvectormap -->
-        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
-        <!-- Date Picker -->
-        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
-        <!-- Daterange picker -->
-        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
-        <!-- bootstrap wysihtml5 - text editor -->
-        <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
         <!-- Theme style -->
         <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/AdminLTE.css" rel="stylesheet" type="text/css" />
 
@@ -44,7 +34,7 @@
 
 
  <!-- Loading Flat UI -->
-    <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/dist/css/flat-ui.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->theme->baseUrl; ?>/forum/css/flat-ui.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/docs/assets/css/demo.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/Flat/js/jcarousel.responsive.css">
 
@@ -207,7 +197,7 @@
   </div>
 </div>
 <!-- script references -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/-1.10.2.js"></script>
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/js/bootstrap.min.js"></script>
         <script src="<?php echo Yii::app()->theme->baseUrl; ?>/forum/js/scripts.js"></script>
 
