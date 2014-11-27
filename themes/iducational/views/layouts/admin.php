@@ -23,6 +23,11 @@
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/css/DT_bootstrap.css" rel="stylesheet">
 
+<<<<<<< HEAD
+=======
+    <link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl; ?>img/logo.png">
+
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
     <style type="text/css">
         #wrapper {
             margin-top: -10px !important;
@@ -32,7 +37,11 @@
         }
     </style>
 </head>
+<<<<<<< HEAD
     <!-- Core Scripts - Include with every page -->
+=======
+   <!-- Core Scripts - Include with every page -->
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/jquery-1.10.2.js"></script>
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/plugins/metisMenu/jquery.metisMenu.js"></script>
@@ -46,9 +55,29 @@
      <!-- Page-Level Plugin Scripts - Dashboard -->
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="<?php echo Yii::app()->theme->baseUrl; ?>/js/plugins/morris/morris.js"></script>
+<<<<<<< HEAD
     <script src="<?= Yii::app()->theme->baseUrl ?>/js/scripts.js"></script>
     <script src="<?= Yii::app()->theme->baseUrl ?>/js/DT_bootstrap.js"></script>
 
+=======
+    <script src="<?= Yii::app()->theme->baseUrl; ?>/js/scripts.js"></script>
+    <script src="<?= Yii::app()->theme->baseUrl; ?>/js/DT_bootstrap.js"></script>
+     <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/jquery.fancybox.pack.js"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+    <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 <body>
 
 <div id="wrapper">
@@ -61,13 +90,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+<<<<<<< HEAD
                 <a class="navbar-brand" href="index.html">IDucation</a>
+=======
+                <a class="navbar-brand" href="index.html">IDucation admin panel</a>
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<<<<<<< HEAD
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
@@ -259,6 +293,9 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+=======
+                        <i class="fa fa-user fa-fw"></i> <?= Yii::app()->session['username'] ?> <i class="fa fa-caret-down"></i>
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -266,7 +303,11 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
+<<<<<<< HEAD
                         <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+=======
+                        <li><a href="<?= Yii::app()->createUrl('login/logout'); ?>"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -282,7 +323,34 @@
                             <a href="<?= Yii::app()->createUrl("admin/Dashboard") ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
+<<<<<<< HEAD
                             <a href="<?= Yii::app()->createUrl("admin/User") ?>"><i class="fa fa-dashboard fa-fw"></i> User Management</a>
+=======
+                            <a href="#"><i class="fa fa-user fa-fw"></i> User Management<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/User") ?>" class="active"><i class="fa fa-hand-o-right fa-fw"></i>User Table</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/Userauth") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Authentication</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/Userdetail") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Detail</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserFriend") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Friend</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserInterest") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Interest</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserSchool") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User School</a>
+                                </li>
+                                <li>
+                                    <a href="<?= Yii::app()->createUrl("admin/UserWork") ?>"><i class="fa fa-hand-o-right fa-fw"></i>User Work</a>
+                                </li>
+                            </ul>
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
                         </li>
                         <!-- <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>

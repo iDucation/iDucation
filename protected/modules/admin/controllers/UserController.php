@@ -2,8 +2,31 @@
 
 class UserController extends Controller
 {
+<<<<<<< HEAD
 	public function actionIndex()
 	{
+=======
+	public function cekSession()
+	{
+		if(!isset(Yii::app()->session['username'])){
+			//get User and Role
+			$model = new TUserAuth();
+			$criteria = new CDbCriteria;
+			$criteria->addCondition("user_id=".$getUser->user_id);
+    		$criteria->addCondition("(user_role_id=2 OR user_role_id=1)");
+			$cekUser = $model->find($criteria);
+
+			if(empty($cekUser)){
+				throw new CHttpException('when acces page',Yii::t('Errors','because this page just for admin'));
+				Yii::app()->end();
+			}
+		}
+	}
+
+	public function actionIndex()
+	{
+		$this->cekSession();
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$this->layout = 'admin';
 		if (!Yii::app()->getRequest()->getIsAjaxRequest()) {
 			$model =  new UserForm;
@@ -16,6 +39,7 @@ class UserController extends Controller
 			//Sort by column
 			$columns = explode(',',$_POST['sColumns']);
 			$orderBy = $columns[$_POST['iSortCol_0']].' '.$_POST['sSortDir_0'];
+<<<<<<< HEAD
 			
 			//search
 			/*$filterBy = $filterString = null;
@@ -27,6 +51,9 @@ class UserController extends Controller
 					$filterString = $_POST['sSearch_'.$key];
 				}
 			}*/
+=======
+
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 			$page = ($start/$length)+1;
 			
 			$model = new TUser();
@@ -127,6 +154,10 @@ class UserController extends Controller
 			}
 		}
 		$model->saveType = 'add';
+<<<<<<< HEAD
+=======
+		$model->user_created_date = date("Y-m-d H:i:s"); 
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$this->render('add_user',array('model'=>$model));
 
 	}
@@ -153,4 +184,41 @@ class UserController extends Controller
 			return false;
 		}
 	}
+<<<<<<< HEAD
+=======
+
+	public function actionAjax_cek_username(){
+		if(Yii::app()->getRequest()->getIsAjaxRequest()) {
+			$model = new TUser();
+			$criteria = new CDbCriteria();
+			$criteria->select = "username";
+			$criteria->condition = "username=:username";
+			$criteria->params = array(':username'=>$_POST['u']);
+			$data = $model->findAll($criteria);
+			if (empty($data)){
+				$result = array('status'=>true,'value'=>$_POST['u']);
+			}else{
+				$result = array('status'=>false,'value'=>$_POST['u']);
+			}
+			echo json_encode($result);
+		}
+	}
+
+	public function actionAjax_cek_email(){
+		if(Yii::app()->getRequest()->getIsAjaxRequest()) {
+			$model = new TUser();
+			$criteria = new CDbCriteria();
+			$criteria->select = "email";
+			$criteria->condition = "email=:email";
+			$criteria->params = array(':email'=>$_POST['e']);
+			$data = $model->findAll($criteria);
+			if (empty($data)){
+				$result = array('status'=>true,'value'=>$_POST['e']);
+			}else{
+				$result = array('status'=>false,'value'=>$_POST['e']);
+			}
+			echo json_encode($result);
+		}
+	}
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 }

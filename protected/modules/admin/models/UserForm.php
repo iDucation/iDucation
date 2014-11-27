@@ -57,6 +57,10 @@ class UserForm extends CFormModel
 		$d = strtotime($this->user_date);
 		$date = date("Y-m-d", $d);
 		$this->user_created_date = date("Y-m-d H:i:s"); 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$p = md5($this->password);
 		$p2 = substr($p,0,5);
 		$p3 = substr($p,5,-1);
@@ -64,6 +68,10 @@ class UserForm extends CFormModel
 		$unix = md5(substr($p,-4));
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
+<<<<<<< HEAD
+=======
+		
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		if($this->saveType=='add'){
 			$data = new TUser;
 			$data->username = $this->username;
@@ -116,7 +124,11 @@ class UserForm extends CFormModel
 		$this->saveType = 'edit';
 	}
 
+<<<<<<< HEAD
 	public function getGenderOption(){
+=======
+	public function genderOption(){
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		return array('1'=>'Male','2'=>'Female');
 	}
 }

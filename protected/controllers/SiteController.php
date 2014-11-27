@@ -29,7 +29,12 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+<<<<<<< HEAD
 		$this->render('index');
+=======
+		//$this->render('index');
+		Yii::app()->authManager;
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 	}
 
 	/**
@@ -37,6 +42,10 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
+<<<<<<< HEAD
+=======
+		$this->layout = "error";
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		if($error=Yii::app()->errorHandler->error)
 		{
 			if(Yii::app()->request->isAjaxRequest)

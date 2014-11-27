@@ -18,6 +18,10 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 		$users = TUser::model()->find(array('condition'=>'Username=:username','params'=>array(':username'=>$this->username)));
+<<<<<<< HEAD
+=======
+		
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$p = md5($this->password);
 		$p2 = substr($p,0,5);
 		$p3 = substr($p,5,-1);
@@ -25,6 +29,10 @@ class UserIdentity extends CUserIdentity
 		$unix = md5(substr($p,-4));
 		$uCod = substr($unix,0,4);
 		$this->password = $p2.$uCod.$p3.$uCod.$p4;
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		if($users===null)
 			Yii::app()->user->setFlash('Error','Username is wrong !');
 		elseif($users->password!==$this->password)

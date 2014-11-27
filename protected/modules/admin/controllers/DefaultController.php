@@ -3,8 +3,31 @@
 class DefaultController extends Controller
 {
 
+<<<<<<< HEAD
 	public function actionIndex()
 	{
+=======
+	public function cekSession()
+	{
+		if(!isset(Yii::app()->session['username'])){
+			//get User and Role
+			$model = new TUserAuth();
+			$criteria = new CDbCriteria;
+			$criteria->addCondition("user_id=".$getUser->user_id);
+    		$criteria->addCondition("(user_role_id=2 OR user_role_id=1)");
+			$cekUser = $model->find($criteria);
+
+			if(empty($cekUser)){
+				throw new CHttpException('when acces page',Yii::t('Errors','because this page just for admin'));
+				Yii::app()->end();
+			}
+		}
+	}
+
+	public function actionIndex()
+	{
+		$this->cekSession();
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$this->redirect(Yii::app()->createUrl('admin/Dashboard'));
 		//$this->render('index');
 	}

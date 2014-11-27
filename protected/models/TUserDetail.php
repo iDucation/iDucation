@@ -6,7 +6,11 @@
  * The followings are the available columns in table 'user_detail':
  * @property integer $user_detail_id
  * @property integer $user_id
+<<<<<<< HEAD
  * @property integer $mypicture
+=======
+ * @property string $mypicture
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
  * @property string $phone
  * @property string $address
  * @property string $religion
@@ -35,7 +39,12 @@ class TUserDetail extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('user_id, mypicture', 'required'),
+<<<<<<< HEAD
 			array('user_id, mypicture', 'numerical', 'integerOnly'=>true),
+=======
+			array('user_id', 'numerical', 'integerOnly'=>true),
+			array('mypicture', 'length', 'max'=>225),
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 			array('phone', 'length', 'max'=>18),
 			array('address, aboutme', 'length', 'max'=>255),
 			array('religion', 'length', 'max'=>11),
@@ -95,7 +104,11 @@ class TUserDetail extends CActiveRecord
 
 		$criteria->compare('user_detail_id',$this->user_detail_id);
 		$criteria->compare('user_id',$this->user_id);
+<<<<<<< HEAD
 		$criteria->compare('mypicture',$this->mypicture);
+=======
+		$criteria->compare('mypicture',$this->mypicture,true);
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('address',$this->address,true);
 		$criteria->compare('religion',$this->religion,true);

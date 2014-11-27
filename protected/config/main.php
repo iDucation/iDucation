@@ -30,8 +30,17 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+<<<<<<< HEAD
 		'admin'=>array('layoutPath' => "themes/$theme/views/layouts"),
 		'sosmed'=>array('layoutPath' => "themes/$theme/views/layouts"),
+=======
+		'admin'=>array(
+			'layoutPath' => "themes/$theme/views/layouts",
+			'defaultController' => 'login'
+		),
+		'sosmed'=>array('layoutPath' => "themes/$theme/views/layouts"),
+		'forum'=>array('layoutPath' => "themes/$theme/views/layouts"),
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		
 	),
 
@@ -43,7 +52,11 @@ return array(
 		),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
+<<<<<<< HEAD
                     'urlSuffix'=>'.html',
+=======
+                    'urlSuffix'=>'.3gp',
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
                     'urlFormat'=>'path',
                     'showScriptName'=>false,
                     'rules'=>array(
@@ -51,7 +64,14 @@ return array(
                             '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
                             '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
                     ),
+<<<<<<< HEAD
                 ),
+=======
+        ),
+        'session' => array (
+		    'autoStart' => true,
+		),
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -85,6 +105,16 @@ return array(
 				*/
 			),
 		),
+<<<<<<< HEAD
+=======
+		'authManager'=>array(
+            'class'=>'CDbAuthManager',
+            'connectionID'=>'db',
+            'itemTable'=>'authitem',        
+            'assignmentTable'=>'authassignment',
+            'itemChildTable'=>'authitemchild'
+        ),
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 	),
 	// load theme
 	'theme'=>$theme,

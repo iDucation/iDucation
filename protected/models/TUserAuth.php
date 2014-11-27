@@ -46,8 +46,13 @@ class TUserAuth extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+<<<<<<< HEAD
 			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 			'userRole' => array(self::BELONGS_TO, 'UserRole', 'user_role_id'),
+=======
+			'user' => array(self::BELONGS_TO, 'TUser', 'user_id'),
+			'userRole' => array(self::BELONGS_TO, 'TUserRole', 'user_role_id'),
+>>>>>>> f4ff53e7f321466026cd3192fd0bc83b95c371d7
 		);
 	}
 
