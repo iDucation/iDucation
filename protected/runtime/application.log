@@ -8345,3 +8345,121 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/iducation3/img/favicon.ico
 ---
+2014/11/14 01:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/img/favicon.ico
+---
+2014/11/14 02:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/favicon.ico".' in C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img/favicon.ico')
+#1 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iducation\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iducation/img/favicon.ico
+---
+2014/11/14 03:41:02 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
+2014/11/14 04:27:53 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
+2014/11/14 13:59:34 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
+2014/11/14 14:25:31 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
+2014/11/14 14:25:32 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
+2014/11/14 14:55:17 [error] [php] Undefined variable: model (C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(869): StatusController->renderFile()
+#1 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(782): StatusController->renderPartial()
+#2 C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php(8): StatusController->render()
+#3 C:\xampp\htdocs\yii1.1.15\framework\web\actions\CInlineAction.php(49): StatusController->actionIndex()
+#4 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(286): StatusController->runAction()
+#6 C:\xampp\htdocs\yii1.1.15\framework\web\CController.php(265): StatusController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(282): StatusController->run()
+#8 C:\xampp\htdocs\yii1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iducation\index.php(13): CWebApplication->run()
+REQUEST_URI=/iducation/admin/status.html
+in C:\xampp\htdocs\iducation\protected\modules\admin\views\status\index.php (23)
+in C:\xampp\htdocs\iducation\protected\modules\admin\controllers\StatusController.php (8)
+in C:\xampp\htdocs\iducation\index.php (13)
